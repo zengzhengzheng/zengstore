@@ -14,6 +14,8 @@ Rails.application.routes.draw do
     end
   end
 
+  resources :cart_items
+
 
   devise_for :users
   root "products#index"
