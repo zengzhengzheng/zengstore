@@ -21,6 +21,7 @@ gem 'mini_magick'
 gem 'devise'
 gem 'simple_form'
 gem 'font-awesome-rails'
+gem 'letter_opener', group: :development
 group :development, :test do
   gem 'byebug', platform: :mri
 end
